@@ -43,3 +43,61 @@ The player controls the movement of the falling tetromino using keyboard inputs.
 - Rotating the tetromino
 - Dropping the tetromino faster
 
+## Code Explanation
+- Tetromino Class: Handles the creation, movement, and rotation of different tetromino shapes.
+- GameBoard Class: Manages the game board, checks for line clears, and detects collisions.
+- Game Loop: Runs continuously, updating the position of the falling piece, checking for input, and clearing full lines.
+- Collision Detection: Ensures pieces do not move beyond the board boundaries or overlap with existing blocks.
+
+## Controls
+- Left Arrow (←): Move block left
+- Right Arrow (→): Move block right
+- Up Arrow (↑): Rotate block
+- Down Arrow (↓): Drop block faster
+- Spacebar: Instantly drop block
+- P: Pause game
+
+## Collision Detection
+Collisions occur when a falling piece touches the bottom of the board or another placed piece. If a piece cannot move down, it locks in place, and a new piece spawns at the top.
+
+## Score Tracking
+Points are awarded when a full row of blocks is completed and cleared. The score increases with the number of rows cleared at once:
+- 1 Line = 100 points
+- 2 Lines = 300 points\
+- 3 Lines = 500 points
+- 4 Lines (Tetris) = 800 points
+
+## Game Loop and Logic
+The game operates in a loop where:
+
+1. A new piece spawns at the top.
+2. The player moves or rotates the piece.
+3. The piece falls over time.
+4. If a row is completed, it is cleared.
+5. If pieces stack up to the top, the game ends.
+
+##  Requirements
+To run this project, you need:
+- A C++ compiler (e.g., g++, MinGW)
+- A terminal
+- Windows
+
+## Compilation and Execution
+To compile the program, use a C++ compiler like g++:
+
+g++ InSem2Project.cpp -o InSem2Project
+
+Run the executable:
+
+./InSem2Project
+
+## Screenshot
+Below is a screenshot of the game:
+
+## Conclusion
+The Tetris game is an exciting puzzle game that challenges the player’s problem-solving skills. This project implements game mechanics like gravity, collision detection, and scoring, making it a great learning experience in game development.
+
+## License
+This project is released under the MIT License, allowing for open-source usage and modification. Users are free to modify and distribute the game as long as proper credit is given to the original creator.
+
+
