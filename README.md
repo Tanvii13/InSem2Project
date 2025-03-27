@@ -94,6 +94,8 @@ Run the executable:
 ## Screenshot
 Below is a screenshot of the game:
 
+![Tetris Game Screenshot](Screenshot%202025-03-28%20034757.png)
+
 ## Conclusion
 The Tetris game is an exciting puzzle game that challenges the player’s problem-solving skills. This project implements game mechanics like gravity, collision detection, and scoring, making it a great learning experience in game development.
 
