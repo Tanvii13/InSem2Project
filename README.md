@@ -34,4 +34,12 @@ The game features different shapes of blocks (tetrominoes) that fall from the to
 - L and J (L-shaped blocks)
 - S and Z (Zig-zag blocks)
 
+### Game Board
+The game board consists of a grid where the tetrominoes fall. It has a fixed width and height, and the objective is to fill horizontal lines to clear them and score points. The board detects when a block reaches the bottom or collides with another block, stopping its movement.
+
+### User Input and Movement
+The player controls the movement of the falling tetromino using keyboard inputs. The available movements include:
+- Moving left or right
+- Rotating the tetromino
+- Dropping the tetromino faster
 
