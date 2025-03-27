@@ -9,9 +9,9 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Game Components](#game-components)
-  -[Tetrominoes](#tetrominoes)
-  -[Game Board](#game-board)
-  -[User Input and Movement](#user-input-and-movement)
+  - [Tetrominoes](#tetrominoes)
+  - [Game Board](#game-board)
+  - [User Input and Movement](#user-input-and-movement)
 - [Code Explanation](#code-explanation)
 - [Controls](#controls)
 - [Requirements](#requirements)
