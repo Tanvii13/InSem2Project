@@ -63,9 +63,9 @@ Collisions occur when a falling piece touches the bottom of the board or another
 ## Score Tracking
 Points are awarded when a full row of blocks is completed and cleared. The score increases with the number of rows cleared at once:
 - 1 Line = 100 points
-- 2 Lines = 300 points\
+- 2 Lines = 300 points
 - 3 Lines = 500 points
-- 4 Lines (Tetris) = 800 points
+- 4 Lines = 800 points
 
 ## Game Loop and Logic
 The game operates in a loop where:
